@@ -1,7 +1,7 @@
 # peak_classifier_and_detector
 
 Inside training.mat, there is d, Index and Class. d is a dataset. Index provides the positions of the peaks within the dataset and Class defines which class each peak is in. 
-This code provides a solution to detect and classify peaks within d.
+This repository provides 2 solutions to detect and classify peaks within d. The first solution uses the xgboost library. The second solution uses a simple decision tree. 
 
 F1 calculator is used to calculate the accuracy of the solutions.
 
